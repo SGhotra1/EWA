@@ -1,0 +1,19 @@
+h1 {color: white}
+
+h2 {text-align: left;
+    color: white}
+
+a:link {color: lawngreen}
+a:visited {color: lawngreen}
+.verlinkung {margin-left:  40em;}
+.alltext {color: white}
+
+body {background-color: black;
+      padding-bottom: 4%}
+
+img {
+    max-width: 100%;
+    width: auto;
+    max-height: 6em;
+    height: auto;
+}

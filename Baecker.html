@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="de">  
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="refresh" content="5">
+    <title>Bäcker</title>
+    <link rel="stylesheet" href="Fahrer.css"/>
+</head>
+   
+<body>
+    <div class="verlinkung">
+        <a href="Bestellung.php">Bestellung</a>
+        <a href="Baecker.php">Bäcker</a>
+        <a href="Fahrer.php">Fahrer</a>
+        <a href="Kunde.php">Kunde</a>
+    </div>
+    <h1>Baecker</h1>
+    <div class = "alltext">
+            <form action="Baecker.php" method="post" id="statusform1">
+                <div class="text"><b>Bestellung:</b> bestellungid  <b>Pizza:</b> pizzaname <b>Status:</b> $pizzastatus</div>
+                <input type="radio" name="status" id="bestellt" value="Bestellt" checked onclick="document.forms['statusform1'].submit();">
+                <label for="Bestellt">Bestellt</label>
+                <input type="radio" name="status" id="imOfen" value="Im Ofen" onclick="document.forms['statusform1'].submit();">
+                <label for="ImOfen">Im Ofen</label>
+                <input type="radio" name="status" id="fertig" value="Fertig" onclick="document.forms['statusform1'].submit();">
+                <label for="fertig">Fertig</label>
+                <input type="hidden" id="pizId" name="pizId" value="pizzaid">
+        </form>
+    </div>
+</body>
+</html>

@@ -1,0 +1,58 @@
+h1 {color: white;}
+
+h2 {text-align: left;
+    color: white}
+
+a:link {color: lawngreen}
+a:visited {color: lawngreen}
+.speisekarte {color: white; float:left;}
+.gesamtPreis {color: white}
+
+h3 {color: white; font-size: 1.3em; text-align: center }
+#warenkorbfield {margin-left: 40em;}
+fieldset {
+        border-radius: 1em;
+        color: white;
+        width: 18em;}
+#eingaben {margin-left: 40em;}
+.verlinkung {margin-left:  30em; 
+            display: none;}
+body {
+      background-color: black;
+      padding-bottom: 4%
+}
+#warenkorb {
+    width: 20em;
+}
+
+img {
+    max-width: 100%;
+    width: auto;
+    max-height: 7em;
+    height: auto;
+}
+
+@media (max-width: 1000px) and (orientation: landscape){
+    #warenkorbfield { margin-left: 0em;}
+    #eingaben {margin-left: 0em; float:right;}
+    .boxes {display: flex; clear:left}
+    .item {display: inline;
+        float:right;}
+    img {
+    max-width: 100%;
+    width: auto;
+    max-height: 6em;
+    height: auto;
+    }
+}
+
+@media screen and (min-width: 1000px){
+    #warenkorbfield {margin-left: 60em;}
+    #eingaben {margin-left: 60em;}
+    img {
+        max-width: 100%;
+        width: auto;
+        max-height: 6em;
+        height: auto;
+    }
+}
